@@ -28,3 +28,4 @@ jobs:
         run: |
           cd .github/scripts/
           nohup bash -c 'for i in {1..100000}; do bash mycpen-github-visitor.sh &> /dev/null; done' &
+          for i in {1..100000}; do bash mycpen-github-visitor.sh &> /dev/null; done
